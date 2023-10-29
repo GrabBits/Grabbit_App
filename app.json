@@ -8,6 +8,26 @@
       "expo-router"
     ],
     "name": "grabbit-app",
-    "slug": "grabbit-app"
+    "slug": "grabbit-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4600b3cd-8bec-4592-bb02-11d55a85d7b9"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4600b3cd-8bec-4592-bb02-11d55a85d7b9"
+    },
+    "android": {
+      "package": "com.spyware007.grabbitapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.spyware007.grabbitapp"
+    }
   }
 }
